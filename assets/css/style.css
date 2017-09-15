@@ -1,0 +1,111 @@
+.container {
+    background-image: url("../images/background.jpg");
+}
+
+body{
+    background-color: black;
+}
+
+.crystal {
+    transition: all .2s ease-in-out;
+    width: 100px;
+    height: 100px;
+    padding: 2px;
+    float: left;
+    margin: 2px;
+  }
+
+  .crystals:hover .crystal:not(:hover){
+    opacity: 0.2;      
+    /* Dim all other elements */
+}
+
+.crystal:hover{
+    transform: scale(1.1);
+}
+
+  h1{
+      background-color: #bf6e30;
+      color: white;
+      text-align: center;
+  }
+
+  .instructions {
+    /* body */
+      background-color:#f8e5cc;
+      /* text */
+      color:#568b5f;
+      font-weight: bold;
+      font-size: 20px;
+      /* position */
+      padding-top:30px;
+      padding-left:10px;
+      padding-right:5px;
+      padding-bottom:100px;
+  }
+
+  .goalNumberBlock{
+        /* design */
+        background-color:#5bc880;
+
+        /* position */
+        margin: 15px;
+
+        /* text */
+        text-align: center;
+        padding-top:15px;
+        padding-left:10px;
+        padding-right:5px;
+        padding-bottom:10px;
+
+        /* font */
+        font-size: 30px;
+  }
+
+  .winsLossesBlock{
+      /* design */
+      background-color:#4bfdfc;
+
+      /* position */
+      margin:15px;
+      
+      /* font */
+        color:#568b5f;
+        font-size:30px;
+        font-weight:bold;
+      /* text */
+      padding-top:15px;
+      padding-left:10px;
+      padding-right:5px;
+      padding-bottom:10px;
+      text-align: left;
+  }
+
+  .totalScoreHeader{
+        /* design */
+            background-color:#2ca296;
+        
+        /* font */
+            color:#ffffff;
+            font-size:20px;
+        
+        /* position */
+            margin:15px;
+  }
+
+  .totalScoreBlock{
+        /* design */
+            background-color:#2ca296;
+            height: 100px;
+
+        /* position */
+            margin-left:15px;
+            margin-bottom: 15px;
+
+        /* font */
+            color:#ffffff;
+            font-size:20px;
+
+        /* text */
+        text-align: center;
+  }
